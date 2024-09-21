@@ -1,2 +1,31 @@
 @import './base.css';
 @import './fonts.css';
+
+.card {
+  @apply 
+    container 
+    border 
+    rounded-md 
+    shadow-lg 
+    bg-zinc-800
+    hover:bg-zinc-600
+    border-zinc-300 
+    text-2xl 
+    ;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-amber {
+  @apply bg-amber-600 text-white;
+}
+
+.btn-amber:hover {
+  @apply bg-amber-500;
+}
+
+.chip {
+  @apply font-bold py-2 px-2 rounded bg-amber-900 text-white;
+}
